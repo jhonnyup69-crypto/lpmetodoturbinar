@@ -34,14 +34,16 @@ export default function App() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="flex flex-col items-start"
+            className="flex flex-col items-center text-center"
           >
-            <h1 className="text-4xl md:text-6xl font-black leading-[1.1] mb-10 tracking-tight max-w-xl">
-              Descubra como <span className="text-[#ff007f]">lotar</span> <br />
+            <h1 className="text-2xl md:text-4xl font-black leading-[1.1] mb-10 tracking-tight max-w-2xl">
+              Descubra como <br />
+              <span className="text-[#ff007f]">lotar</span> <br />
               <span className="text-[#ff007f]">sua loja</span> de <br />
               maquiagem <br />
               usando apenas o <br />
-              botão Turbinar do <br />
+              botão Turbinar <br />
+              do <br />
               Instagram
             </h1>
             <p className="text-lg text-zinc-400 mb-10 font-light max-w-2xl">
@@ -62,7 +64,7 @@ export default function App() {
               </div>
             </div>
 
-            <Button className="w-full md:w-auto text-lg px-10 py-4">
+            <Button className="w-full md:w-auto text-base px-8 py-3">
               QUERO ACESSAR AGORA
             </Button>
           </motion.div>
